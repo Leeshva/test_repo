@@ -1,2 +1,2 @@
 git init 연습
-	git init
+	git commit 연습이라오
