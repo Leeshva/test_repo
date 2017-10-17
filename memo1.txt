@@ -1,2 +1,35 @@
-git init 연습
-	git commit 연습이라오
+git 초기화
+	git init
+
+현재상태조회
+	git status
+
+staging area에 파일 디렉토리 추가
+	git add 파일/폴더명
+	git add *
+
+staging area 추가된 파일 꺼내기
+	git reset HEAD 파일명
+
+snapshot을 로컬 저장소에 저장하기
+	git commit -m "커밋메세지"
+
+git 커밋 로그 확인하기
+	git-log
+
+브랜치만들기
+	git branch 브렌치명
+
+브렌치 바꾸기
+	git checkout 브랜치명
+
+브랜치 만들고 이동하기
+	git checkout -b 브랜치명
+
+브랜치 리스트보기
+	git branch
+브랜치 삭제하기
+	git branch -d 브랜치명
+브랜치 병합하기
+	git merge 브랜치명
+---- 마스터마스터마스터
